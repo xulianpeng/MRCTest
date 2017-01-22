@@ -10,6 +10,7 @@
 
 @interface ViewController : UIViewController
 
-
+@property(nonatomic,copy)NSString *testTitle;
+@property(nonatomic,retain)UILabel *testLabel;
 @end
 
